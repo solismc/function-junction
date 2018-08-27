@@ -4,12 +4,23 @@
  * construct available in Javascript.
  */
 
-// ...
+
+function max(a, b) {
+  if (a > b) {return a}
+  else {return b}
+}
 
 /**
  * Define a function maxOfThree() that takes three
  * numbers as arguments and returns the largest of them.
  */
+
+function maxOfThree(a, b, c) {
+    if (a > b && a > c) {return a}
+        else if (b > c) {return b}
+        else {return c}
+    
+}
 
 // ...
 
@@ -18,12 +29,22 @@
  * arguments and computes the sum of those two numbers.
  */
 
+function sum(a, b){
+  const sum = (a + b)
+ return sum
+}
+
 // ...
 
 /*
  * Define a function sumOfArray that calculates the sum of
  * all the numbers in an array.
  */
+
+function sumOfArray(){
+    
+}
+
 
 // ...
 
